@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplicationfragmentos.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/calcu"
+        android:name="com.example.myapplicationfragmentos.calcu"
+        android:label="fragment_calcu"
+        tools:layout="@layout/fragment_calcu" />
+    <fragment
+        android:id="@+id/songs"
+        android:name="com.example.myapplicationfragmentos.songs"
+        android:label="fragment_songs"
+        tools:layout="@layout/fragment_songs" />
+    <fragment
+        android:id="@+id/web"
+        android:name="com.example.myapplicationfragmentos.web"
+        android:label="fragment_web"
+        tools:layout="@layout/fragment_web" />
+    <fragment
+        android:id="@+id/maravillas"
+        android:name="com.example.myapplicationfragmentos.maravillas"
+        android:label="fragment_maravillas"
+        tools:layout="@layout/fragment_maravillas" />
+    <fragment
+        android:id="@+id/descripccion_maravilla"
+        android:name="com.example.myapplicationfragmentos.descripccion_maravilla"
+        android:label="fragment_descripccion_maravilla"
+        tools:layout="@layout/fragment_descripccion_maravilla" />
+    <fragment
+        android:id="@+id/propuesta"
+        android:name="com.example.myapplicationfragmentos.propuesta"
+        android:label="fragment_propuesta"
+        tools:layout="@layout/fragment_propuesta" />
+</navigation>
